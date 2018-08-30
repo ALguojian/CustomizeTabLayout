@@ -19,6 +19,23 @@ dependencies {
         }
 ```
 
+使用如下：
+
+```
+  <com.alguojian.demo.CustomizeTabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:tabIndicatorHeight="2dp"
+        app:tabIndicatorWidth="25dp"
+        app:tabTextColor="#999999"
+        app:tab_Mode="mode_fixed"
+        android:layout_marginBottom="10dp"
+        app:tabSelectTextColor="@color/colorPrimary"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabTextSize="12sp"/>
+```
+
 ```
         tabLayout = findViewById(R.id.tablayout);
         viewpager = findViewById(R.id.viewpager);
