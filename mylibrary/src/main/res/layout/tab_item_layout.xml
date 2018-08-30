@@ -18,6 +18,6 @@
         android:layout_height="2dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@color/colorAccent"
+        android:background="000"
         android:visibility="invisible" />
 </RelativeLayout>
