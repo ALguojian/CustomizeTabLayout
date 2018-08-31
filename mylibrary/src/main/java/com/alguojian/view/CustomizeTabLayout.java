@@ -185,7 +185,7 @@ public class CustomizeTabLayout extends FrameLayout {
             layoutParams.height = indicatorHeight;
             indicator.setLayoutParams(layoutParams);
         }
-        tabText.setTextSize(textSize);
+        tabText.getPaint().setTextSize(textSize);
         tabText.setText(text);
         return view;
     }
